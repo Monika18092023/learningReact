@@ -1,0 +1,37 @@
+#root {
+    max-width: 1280px;
+    /* margin: 0 auto; */
+    padding: 2rem;
+    text-align: center;
+  }
+  
+.card{
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgba(24, 18, 18, 0.103);
+    border-radius:10px;
+    display: inline-block;
+    padding: 10px;
+    ;
+}
+button{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+#plusbutton{
+    background: rgb(2, 113, 2);
+    color: aliceblue;
+}
+#minusbutton{
+    background: rgb(218, 17, 17);
+    color: aliceblue;
+}
+h3{
+    text-align: center;  
+}
+h3 span {
+    background: white;
+    padding: 2px;
+    border-radius: 2px;
+}
