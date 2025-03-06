@@ -8,13 +8,15 @@ import CleanUp from "./cleanUp";
 import PostById from "./PostById";
 import PhotoApi from "./PhotoApi";
 import ToggleMode from "./ToggleMode";
+import UserStatus from "./UserStatus";
 
 const App = () => {
  
 
   return (
     <div>
-      <ToggleMode/>
+      <UserStatus/>
+      {/* <ToggleMode/> */}
       {/* <PhotoApi/> */}
       {/* <PostById/> */}
       {/* <CleanUp/> */}
